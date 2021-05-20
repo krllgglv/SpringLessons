@@ -1,6 +1,5 @@
 package com.example.hometask8.repositories;
 
-
 import com.example.hometask8.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;

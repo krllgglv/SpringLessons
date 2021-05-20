@@ -1,4 +1,5 @@
 
+
 CREATE TABLE products (id bigserial primary key, name varchar (255), price int);
 INSERT INTO products (name, price) VALUES
 ('Product1', 1),

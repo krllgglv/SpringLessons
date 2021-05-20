@@ -3,7 +3,6 @@ package com.example.hometask8.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import javax.persistence.*;
 
 @Entity

@@ -15,9 +15,6 @@ public class ProductSpec {
         return (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.equal(root.get("name"), name);
     }
 
-//    public static Specification<Product> nameLike(String name) {
-//        return (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.like(root.get("name"), name);
-//    }
 
     public static Specification<Product> priceMoreThan(Integer lowLimit) {
         return (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder.greaterThan(root.get("price"), lowLimit);
